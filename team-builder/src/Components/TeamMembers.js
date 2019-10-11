@@ -9,6 +9,7 @@ const MembersContainer = styled.div`
   justify-content: space-evenly;
   align-item: center;
   align-content: center;
+  flex-wrap: wrap;
 
 `;
 
@@ -21,6 +22,7 @@ const MemberDivCard = styled.div`
   padding: 10px;
   width: 25%;
   height: 100%;
+  margin-bottom: 30px;
   box-shadow: 10px 5px 5px lightgrey;
 `;
 
