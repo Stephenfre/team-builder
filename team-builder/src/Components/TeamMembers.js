@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+// import TeamMemberImage from "./src/Components/TeamImage.js";
 
 const MembersContainer = styled.div`
   display: flex;

@@ -23,7 +23,7 @@ const FormStyle = styled.form`
 const InputStyle = styled.input`
   height: 15%;
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 `;
 
 const MembersForm = props => {

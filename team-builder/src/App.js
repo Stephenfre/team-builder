@@ -23,7 +23,14 @@ const MemberDivList = styled.div`
 `;
 
 function App() {
-  const [members, setMembers] = useState([]);
+  const [members, setMembers] = useState([
+    {
+      name: "Stephen Freeman",
+      email: "stephen.freeman.dev@gmail.com",
+      role: "Junior Front End Developer",
+      image: ""
+    }
+  ]);
 
   const addMember = member => {
     const newMember = {
